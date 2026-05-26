@@ -1,0 +1,125 @@
+### Correos afectados:
+
+carla.medina@autofin.cl [1, 2, 3, 4, 5, 6, 7, 8]
+sistemas@autofin.cl [3, 4, 6, 7, 8]
+info@autofin.cl [3, 4, 5, 6, 7, 8]
+manuel.solis@autofin.cl [9, 1, 3, 4, 6, 7, 8]
+portabilidadqa@autofin.cl [4, 5, 6, 7, 8]
+portaldealer@autofin.cl [9, 3, 4, 7]
+ivon.sanchez@autofin.cl [4, 5, 7, 8]
+luis.ramos@autofin.cl [4, 5, 6, 7, 8]
+servicios.ti@autofin.cl [4, 5, 7, 8]
+carlos.valenzuela@autofin.cl [3, 4, 5, 7, 8]
+jose.pinilla@autofin.cl [9, 1, 10, 3, 4, 6, 7, 8]
+michel.acosta@autofin.cl [4, 5, 7, 8]
+dionisio.mendoza@autofin.cl [9, 3, 4, 7, 8]
+evaluacion@autofin.cl [9, 4, 7, 8]
+patricio.rojahelis@autofin.cl [3, 4, 6, 7]
+juan.vargas@autofin.cl [9, 4, 7]
+pedro.aguirre@autofin.cl [9, 1, 4, 6, 7, 8]
+elizabeth.carrancio@autofin.cl [4]
+juan.toloza@autofin.cl [7]
+katherine.meyerholz@autofin.cl [7]
+seguimiento@autofin.cl [11, 6]
+admin@autofin.cl [4, 5, 7, 8]
+marcelo.rojas@autofin.cl [12]
+leonardo.castillo@autofin.cl [12]
+christian.herrera@autofin.cl [12]
+patricio.galleguillos@autofin.cl [12]
+daniel.escudel@autofin.cl [12]
+cristian.herrera@autofin.cl [13, 12]
+marcelo.cristian@autofin.cl [12]
+attilio.ferretti@autofin.cl [12]
+ignacio.allende@autofin.cl [12]
+ricardo.morales@autofin.cl [12]
+marcelo_hernandes@autofin.cl [12]
+raul.riveros@autofin.cl [11, 13]
+mitzi.cortez@autofin.cl [11]
+gabriel.navarro@autofin.cl [11]
+jacqueline.gonzalez@autofin.cl [11]
+carlos.espinosa@autofin.cl [11]
+roberto.rojas@autofin.cl [14, 15, 16]
+alejandro.yunis@autofin.cl [17]
+ramses.rojas@autofin.cl [18]
+william.sherrington@autofin.cl [19]
+lucia.barrios@autofin.cl [17, 19]
+harald.g@autofin.cl [19]
+
+### Detalle de filtraciones:
+
+1. TelegramCombolists (2024-05-28):
+In May 2024, 2B rows of data with 361M unique email addresses were collated from malicious Telegram channels. The data contained 122GB across 1.7k files with email addresses, usernames, passwords and in many cases, the website they were entered into. The data appears to have been sourced from a combination of existing combolists and info stealer malware.
+Datos comprometidos: Email addresses, Passwords, Usernames
+
+2. TelegramStealerLogs (2024-07-18):
+In July 2024, info stealer logs with 26M unique email addresses were collated from malicious Telegram channels. The data contained 22GB of logs consisting of email addresses, passwords and the websites they were used on, all obtained by malware running on infected machines.
+Datos comprometidos: Email addresses, Passwords
+
+3. StealerLogsJan2025 (2025-01-13):
+In January 2025, stealer logs with 71M email addresses were added to HIBP. Consisting of email address, password and the website the credentials were entered against, this breach marks the launch of a new HIBP feature enabling the retrieval of the specific websites the logs were collected against. The incident also resulted in 106M more passwords being added to the Pwned Passwords service.
+Datos comprometidos: Email addresses, Passwords
+
+4. AlienStealerLogs (2025-02-15):
+In February 2025, 23 billion rows of stealer logs were obtained from a Telegram channel known as ALIEN TXTBASE. The data contained 284M unique email addresses alongside the websites they were entered into and the passwords used. This data is now searchable in HIBP by both email domain and the domain of the target website.
+Datos comprometidos: Email addresses, Passwords
+
+5. OperationEndgame2 (2025-05-23):
+In May 2025, a coalition of law enforcement agencies took down the criminal infrastructure behind the malware used to launch ransomware attacks in a new phase of "Operation Endgame". This followed the first Operation Endgame exercise a year earlier, with the latest action resulting in 15.3M victim email addresses being provided to HIBP by law enforcement. A further 43.8M victim passwords were also provided for HIBP's Pwned Passwords service.
+Datos comprometidos: Email addresses, Passwords
+
+6. DataTrollStealerLogs (2025-06-20):
+In June 2025, headlines erupted over a "16 billion password" breach. In reality, the dataset was a compilation of publicly accessible stealer logs, mostly repurposed from older leaks, with only a small portion of genuinely new material. HIBP received 2.7B rows containing 109M unique email addresses, which was subsequently added to the service under the name "Data Troll". The websites the stealer logs were captured against are searchable via the HIBP dashboard.
+Datos comprometidos: Email addresses, Passwords
+
+7. SynthientStealerLogThreatData (2025-04-11):
+During 2025, Synthient aggregated billions of records of "threat data" from various internet sources. The data contained 183M unique email addresses alongside the websites they were entered into and the passwords used. After normalising and deduplicating the data, 183 million unique email addresses remained, each linked to the website where the credentials were captured, and the password used. This dataset is now searchable in HIBP by email address, password, domain, and the site on which the credentials were entered.
+Datos comprometidos: Email addresses, Passwords
+
+8. SynthientCredentialStuffingThreatData (2025-04-11):
+During 2025, the threat-intelligence firm Synthient aggregated 2 billion unique email addresses disclosed in credential-stuffing lists found across multiple malicious internet sources. Comprised of email addresses and passwords from previous data breaches, these lists are used by attackers to compromise other, unrelated accounts of victims who have reused their passwords. The data also included 1.3 billion unique passwords, which are now searchable in Pwned Passwords. Working to turn breached data into awareness, Synthient partnered with HIBP to help victims of cybercrime understand their exposure.
+Datos comprometidos: Email addresses, Passwords
+
+9. NazApi (2023-09-20):
+In September 2023, over 100GB of stealer logs and credential stuffing lists titled "Naz.API" was posted to a popular hacking forum. The incident contained a combination of email address and plain text password pairs alongside the service they were entered into, and standalone credential pairs obtained from unnamed sources. In total, the corpus of data included 71M unique email addresses and 100M unique passwords.
+Datos comprometidos: Email addresses, Passwords
+
+10. NotSOCRadar (2024-08-03):
+In August 2024, over 332M rows of email addresses were posted to a popular hacking forum. The post alleged the addresses were scraped from cybersecurity firm SOCRadar, however an investigation on their behalf concluded that "the actor merely utilised functionalities inherent in the platform's standard offerings, designed to gather information from publicly available sources". There is no suggestion the incident compromised SOCRadar's security or posed any risk to their customers. In total, the data set contained 282M unique addresses of valid email address format.
+Datos comprometidos: Email addresses
+
+11. LuminPDF (2019-04-01):
+In April 2019, the PDF management service Lumin PDF suffered a data breach. The breach wasn't publicly disclosed until September when 15.5M records of user data appeared for download on a popular hacking forum. The data had been left publicly exposed in a MongoDB instance after which Lumin PDF was allegedly been "contacted multiple times, but ignored all the queries". The exposed data included names, email addresses, genders, spoken language and either a bcrypt password hash or Google auth token.
+Datos comprometidos: Auth tokens, Email addresses, Genders, Names, Passwords, Spoken languages, Usernames
+
+12. DemandScience (2024-02-28):
+In early 2024, a large corpus of data from DemandScience (a company owned by Pure Incubation), appeared for sale on a popular hacking forum. Later attributed to a leak from a decommissioned legacy system, the breach contained extensive data that was largely business contact information aggregated from public sources. Specifically, the data included 122M unique corporate email addresses, physical addresses, phone numbers, employers and job titles. It also included names and for many individuals, a link to their LinkedIn profile.
+Datos comprometidos: Email addresses, Employers, Job titles, Names, Phone numbers, Physical addresses, Social media profiles
+
+13. Nitro (2020-09-28):
+In September 2020, the Nitro PDF service suffered a massive data breach which exposed over 70 million unique email addresses. The breach also exposed names, bcrypt password hashes and the titles of converted documents. The data was provided to HIBP by dehashed.com.
+Datos comprometidos: Email addresses, Names, Passwords
+
+14. PDL (2019-10-16):
+In October 2019, security researchers Vinny Troia and Bob Diachenko identified an unprotected Elasticsearch server holding 1.2 billion records of personal data. The exposed data included an index indicating it was sourced from data enrichment company People Data Labs (PDL) and contained 622 million unique email addresses. The server was not owned by PDL and it's believed a customer failed to properly secure the database. Exposed information included email addresses, phone numbers, social media profiles and job history data.
+Datos comprometidos: Email addresses, Employers, Geographic locations, Job titles, Names, Phone numbers, Social media profiles
+
+15. LinkedInScrape (2021-04-08):
+During the first half of 2021, LinkedIn was targeted by attackers who scraped data from hundreds of millions of public profiles and later sold them online. Whilst the scraping did not constitute a data breach nor did it access any personal data not intended to be publicly accessible, the data was still monetised and later broadly circulated in hacking circles. The scraped data contains approximately 400M records with 125M unique email addresses, as well as names, geographic locations, genders and job titles. LinkedIn specifically addresses the incident in their post on An update on report of scraped data.
+Datos comprometidos: Education levels, Email addresses, Genders, Geographic locations, Job titles, Names, Social media profiles
+
+16. Eye4Fraud (2023-01-25):
+In February 2023, data alleged to have been taken from the fraud protection service Eye4Fraud was listed for sale on a popular hacking forum. Spanning tens of millions of rows with 16M unique email addresses, the data was spread across 147 tables totalling 65GB and included both direct users of the service and what appears to be individuals who'd placed orders on other services that implemented Eye4Fraud to protect their sales. The data included names and bcrypt password hashes for users, and names, phone numbers, physical addresses and partial credit card data (card type and last 4 digits) for orders placed using the service. Eye4Fraud did not respond to multiple attempts to report the incident.
+Datos comprometidos: Email addresses, IP addresses, Names, Partial credit card data, Passwords, Phone numbers, Physical addresses
+
+17. Dropbox (2012-07-01):
+In mid-2012, Dropbox suffered a data breach which exposed the stored credentials of tens of millions of their customers. In August 2016, they forced password resets for customers they believed may be at risk. A large volume of data totalling over 68 million records was subsequently traded online and included email addresses and salted hashes of passwords (half of them SHA1, half of them bcrypt).
+Datos comprometidos: Email addresses, Passwords
+
+18. Canva (2019-05-24):
+In May 2019, the graphic design tool website Canva suffered a data breach that impacted 137 million subscribers. The exposed data included email addresses, usernames, names, cities of residence and passwords stored as bcrypt hashes for users not using social logins.
+Datos comprometidos: Email addresses, Geographic locations, Names, Passwords, Usernames
+
+19. JobAndTalent (2018-02-01):
+In approximately February 2018, the employment website Jobandtalent suffered a data breach which then appeared for sale alongside other breaches a year later. The incident impacted 11 million subscribers and exposed their names, email and IP addresses and passwords stored as salted SHA-1 hashes.
+Datos comprometidos: Email addresses, IP addresses, Names, Passwords
+
