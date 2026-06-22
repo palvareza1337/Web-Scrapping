@@ -174,12 +174,8 @@ empresa.com
 ### v2.0
 
 - [ ] Variables de entorno para credenciales
-- [ ] Concurrencia mediante ThreadPoolExecutor
-- [ ] Exportación JSON
-- [ ] Exportación HTML
-- [ ] Soporte Docker
-- [ ] Caché DNS
 - [ ] Integración con API oficial de Shodan
+- [ ] Integración de otras fuentes abiertas
 
 ---
 
