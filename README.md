@@ -195,4 +195,4 @@ El uso indebido de esta herramienta es responsabilidad exclusiva del usuario.
 
 🔗 GitHub: https://github.com/palvareza1337
 
-🔗 LinkedIn: https://www.linkedin.com/in/pabloalvarez1337/
+🔗 LinkedIn: https://www.linkedin.com/in/pabloalvarezaraya/
